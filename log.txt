@@ -1,0 +1,107 @@
+2021-08-19 14:26:01.692 +05:30 [INF] Loaded 5 extensions
+2021-08-19 14:26:05.412 +05:30 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.303\
+2021-08-19 14:26:07.662 +05:30 [INF] Found Visual Studio v15.9.28307.1500 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-19 14:26:07.719 +05:30 [INF] Found Visual Studio v16.9.31529.145 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-19 14:26:11.984 +05:30 [INF] Initializing upgrade step Select an entrypoint
+2021-08-19 14:26:11.996 +05:30 [INF] Setting entrypoint to only project in solution: C:\Users\nevairag\source\repos\DemodotNet4\DemodotNet4.csproj
+2021-08-19 14:26:12.018 +05:30 [INF] Initializing upgrade step Select project to upgrade
+2021-08-19 14:26:12.081 +05:30 [INF] Initializing upgrade step Back up project
+2021-08-19 14:26:20.834 +05:30 [INF] Applying upgrade step Back up project
+2021-08-19 14:26:24.894 +05:30 [INF] Backing up C:\Users\nevairag\source\repos\DemodotNet4 to C:\Users\nevairag\source\repos\DemodotNet4.backup
+2021-08-19 14:26:24.978 +05:30 [WRN] Could not copy file C:\Users\nevairag\source\repos\DemodotNet4\log.txt due to 'The process cannot access the file 'C:\Users\nevairag\source\repos\DemodotNet4\log.txt' because it is being used by another process.'
+2021-08-19 14:26:48.496 +05:30 [INF] Project backed up to C:\Users\nevairag\source\repos\DemodotNet4.backup
+2021-08-19 14:26:48.503 +05:30 [INF] Upgrade step Back up project applied successfully
+2021-08-19 14:26:51.559 +05:30 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-19 14:26:56.085 +05:30 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-19 14:26:56.092 +05:30 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-19 14:26:58.046 +05:30 [INF] [dotnet] C:\Users\nevairag\source\repos\DemodotNet4\DemodotNet4.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
+2021-08-19 14:26:58.056 +05:30 [INF] [dotnet] 'C:\Users\nevairag\source\repos\DemodotNet4\DemodotNet4.csproj' is a legacy web project and/or references System.Web. Legacy Web projects and System.Web are unsupported on .NET Core. You will need to rewrite your application or find a way to not depend on System.Web to convert this project.
+2021-08-19 14:27:05.588 +05:30 [INF] [dotnet] Conversion complete!
+2021-08-19 14:27:07.967 +05:30 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-19 14:27:11.284 +05:30 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-19 14:27:12.315 +05:30 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-19 14:27:15.788 +05:30 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-08-19 14:27:15.799 +05:30 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-08-19 14:27:19.941 +05:30 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-19 14:27:19.958 +05:30 [INF] References to be removed: Operation { Item = System.Configuration, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-19 14:27:19.962 +05:30 [INF] Packages to be added: Operation { Item = System.Configuration.ConfigurationManager, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-19 14:27:23.959 +05:30 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-19 14:27:23.972 +05:30 [INF] Removing outdated assembly reference: System.Configuration
+2021-08-19 14:27:23.980 +05:30 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-08-19 14:27:23.985 +05:30 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603
+2021-08-19 14:27:28.363 +05:30 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-19 14:27:29.950 +05:30 [INF] Initializing upgrade step Update TFM
+2021-08-19 14:27:29.976 +05:30 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-19 14:27:29.984 +05:30 [INF] TFM needs updated to net5.0
+2021-08-19 14:27:32.866 +05:30 [INF] Applying upgrade step Update TFM
+2021-08-19 14:27:32.875 +05:30 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-19 14:27:39.971 +05:30 [INF] Updated TFM to net5.0
+2021-08-19 14:27:39.974 +05:30 [INF] Upgrade step Update TFM applied successfully
+2021-08-19 14:27:41.104 +05:30 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-19 14:27:45.062 +05:30 [INF] Marking package Antlr for removal based on package mapping configuration Antlr
+2021-08-19 14:27:45.070 +05:30 [INF] Adding package Antlr4 based on package mapping configuration Antlr
+2021-08-19 14:27:45.080 +05:30 [INF] Marking package WebGrease for removal based on package mapping configuration WebGrease
+2021-08-19 14:27:46.428 +05:30 [INF] Reference to Newtonsoft package (Microsoft.AspNetCore.Mvc.NewtonsoftJson, version 5.0.9) needs added
+2021-08-19 14:27:46.444 +05:30 [INF] Packages to be removed: Operation { Item = Antlr, Version=3.5.0.2, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = WebGrease, Version=1.6.0, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-19 14:27:46.456 +05:30 [INF] Packages to be added: Operation { Item = Antlr4, Version=4.6.6, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-19 14:27:50.862 +05:30 [INF] Applying upgrade step Update NuGet Packages
+2021-08-19 14:27:50.867 +05:30 [INF] Removing outdated package reference: Antlr, Version=3.5.0.2
+2021-08-19 14:27:50.873 +05:30 [INF] Removing outdated package reference: WebGrease, Version=1.6.0
+2021-08-19 14:27:50.877 +05:30 [INF] Adding package reference: Antlr4, Version=4.6.6
+2021-08-19 14:27:50.880 +05:30 [INF] Adding package reference: Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.9
+2021-08-19 14:27:58.033 +05:30 [INF] Marking package Microsoft.CSharp for removal because it appears to be a transitive dependency
+2021-08-19 14:27:58.075 +05:30 [INF] Marking package Newtonsoft.Json for removal because it appears to be a transitive dependency
+2021-08-19 14:27:58.196 +05:30 [INF] Removing outdated package reference: Microsoft.CSharp, Version=4.7.0
+2021-08-19 14:27:58.202 +05:30 [INF] Removing outdated package reference: Newtonsoft.Json, Version=12.0.2
+2021-08-19 14:28:03.383 +05:30 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-19 14:28:04.451 +05:30 [INF] Initializing upgrade step Add template files
+2021-08-19 14:28:04.496 +05:30 [INF] 4 expected template items needed
+2021-08-19 14:28:06.321 +05:30 [INF] Applying upgrade step Add template files
+2021-08-19 14:28:06.374 +05:30 [INF] Added template file Program.cs
+2021-08-19 14:28:06.407 +05:30 [INF] Added template file Startup.cs
+2021-08-19 14:28:06.432 +05:30 [INF] Added template file appsettings.json
+2021-08-19 14:28:06.460 +05:30 [INF] Added template file appsettings.Development.json
+2021-08-19 14:28:08.509 +05:30 [INF] 4 template items added
+2021-08-19 14:28:08.512 +05:30 [INF] Upgrade step Add template files applied successfully
+2021-08-19 14:28:10.274 +05:30 [INF] Initializing upgrade step Upgrade app config files
+2021-08-19 14:28:10.696 +05:30 [INF] Found 4 app settings for upgrade: webpages:Version, webpages:Enabled, ClientValidationEnabled, UnobtrusiveJavaScriptEnabled
+2021-08-19 14:28:10.707 +05:30 [INF] Found 0 connection strings for upgrade: 
+2021-08-19 14:28:10.720 +05:30 [INF] 1 web page namespace imports need upgraded: DemodotNet4
+2021-08-19 14:28:13.980 +05:30 [INF] Applying upgrade step Convert Application Settings
+2021-08-19 14:28:14.009 +05:30 [INF] Upgrade step Convert Application Settings applied successfully
+2021-08-19 14:28:17.939 +05:30 [INF] Applying upgrade step Convert system.web.webPages.razor/pages/namespaces
+2021-08-19 14:28:17.947 +05:30 [INF] View imports written to C:\Users\nevairag\source\repos\DemodotNet4\Views\_ViewImports.cshtml
+2021-08-19 14:28:17.952 +05:30 [INF] Upgrade step Convert system.web.webPages.razor/pages/namespaces applied successfully
+2021-08-19 14:28:17.956 +05:30 [INF] Applying upgrade step Upgrade app config files
+2021-08-19 14:28:17.961 +05:30 [INF] Upgrade step Upgrade app config files applied successfully
+2021-08-19 14:28:20.150 +05:30 [INF] Initializing upgrade step Update Razor files
+2021-08-19 14:28:23.631 +05:30 [INF] Identified 0 diagnostics in Razor files in project DemodotNet4
+2021-08-19 14:28:23.651 +05:30 [INF] Found @helper functions in 0 documents
+2021-08-19 14:28:23.662 +05:30 [INF] Initializing upgrade step Update source code
+2021-08-19 14:28:28.926 +05:30 [INF] Applying upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces
+2021-08-19 14:28:29.284 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\BundleConfig.cs
+2021-08-19 14:28:29.319 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\FilterConfig.cs
+2021-08-19 14:28:29.335 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\RouteConfig.cs
+2021-08-19 14:28:29.345 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Controllers\HomeController.cs
+2021-08-19 14:28:29.356 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Global.asax.cs
+2021-08-19 14:28:29.484 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\BundleConfig.cs
+2021-08-19 14:28:29.498 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\FilterConfig.cs
+2021-08-19 14:28:29.508 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\RouteConfig.cs
+2021-08-19 14:28:29.517 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Controllers\HomeController.cs
+2021-08-19 14:28:29.526 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Global.asax.cs
+2021-08-19 14:28:29.635 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\App_Start\RouteConfig.cs
+2021-08-19 14:28:29.643 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Global.asax.cs
+2021-08-19 14:28:29.748 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Global.asax.cs
+2021-08-19 14:28:29.864 +05:30 [INF] Upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces applied successfully
+2021-08-19 14:28:34.293 +05:30 [INF] Applying upgrade step Apply fix for UA0002: Types should be upgraded
+2021-08-19 14:28:34.845 +05:30 [INF] Diagnostic UA0002 fixed in C:\Users\nevairag\source\repos\DemodotNet4\Controllers\HomeController.cs
+2021-08-19 14:28:34.963 +05:30 [INF] Upgrade step Apply fix for UA0002: Types should be upgraded applied successfully
+2021-08-19 14:28:41.397 +05:30 [INF] Applying upgrade step Update source code
+2021-08-19 14:28:44.123 +05:30 [INF] Source updates complete with 1 diagnostics remaining which require manual updates
+2021-08-19 14:28:44.128 +05:30 [WRN] Manual updates needed to address: UA0013_C@SourceFile(C:\Users\nevairag\source\repos\DemodotNet4\App_Start\BundleConfig.cs[208..224)): Script and style bundling works differently in ASP.NET Core. BundleCollection should be replaced by alternative bundling technologies. https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+2021-08-19 14:28:44.134 +05:30 [INF] Upgrade step Update source code applied successfully
+2021-08-19 14:28:46.207 +05:30 [INF] Initializing upgrade step Move to next project
+2021-08-19 14:28:56.349 +05:30 [INF] Saving upgrade progress file at C:\Users\nevairag\source\repos\DemodotNet4\.upgrade-assistant
